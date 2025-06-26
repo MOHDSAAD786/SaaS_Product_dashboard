@@ -4,11 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "start": "vite preview --port $PORT"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "start": "vite preview --port=$PORT --host"
+},
+
   "dependencies": {
     "@uidotdev/usehooks": "^2.4.1",
     "clsx": "^2.1.1",
