@@ -4,12 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "npx vite build",
-  "preview": "vite preview",
-  "start": "npx serve -s dist"
-},
-
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite preview --port $PORT"
+  },
   "dependencies": {
     "@uidotdev/usehooks": "^2.4.1",
     "clsx": "^2.1.1",
@@ -18,10 +17,8 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
     "recharts": "^2.12.7",
-    "serve": "^14.2.4",
     "tailwind-merge": "^2.5.2",
     "vite": "^5.4.1"
-    
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
