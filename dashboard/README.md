@@ -95,8 +95,8 @@ App will run at: [http://localhost:5173](http://localhost:5173)
 ## 🌐 Deployment (Optional)
 
 You can deploy this project using platforms like:
-- [Vercel](https://vercel.com/)
-- [Netlify](https://netlify.com/)
+
+- [Render](https://saas-product-dashboard.onrender.com)
 - [GitHub Pages](https://github.com/MOHDSAAD786/SaaS_Product_dashboard.git)
 
 ---
