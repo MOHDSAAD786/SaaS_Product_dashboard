@@ -4,11 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "start": "serve -s dist"
-  },
+  "dev": "vite",
+  "build": "npx vite build",
+  "preview": "vite preview",
+  "start": "npx serve -s dist"
+},
+
   "dependencies": {
     "@uidotdev/usehooks": "^2.4.1",
     "clsx": "^2.1.1",
