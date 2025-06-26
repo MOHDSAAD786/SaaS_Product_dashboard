@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "start": "serve -s dist"
   },
   "dependencies": {
     "@uidotdev/usehooks": "^2.4.1",
